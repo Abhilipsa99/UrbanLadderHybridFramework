@@ -1,0 +1,17 @@
+16:42:02.413 [main] INFO  resources.base - Subscribed Successfully
+16:42:07.019 [main] INFO  resources.base - Driver is closed successfully
+16:42:11.546 [main] INFO  resources.base - Driver is initialized and navigated to the home page successfully
+16:42:16.075 [main] INFO  resources.base - Navigated to Login Page
+16:42:25.206 [main] INFO  resources.base - Driver is closed successfully
+16:42:29.346 [main] INFO  resources.base - Driver is initialized and navigated to the home page successfully
+16:42:32.611 [main] INFO  resources.base - SOLUTIONS DISPLAYED For the problem
+16:42:32.821 [main] INFO  resources.base - Driver is closed
+16:42:37.201 [main] INFO  resources.base - Driver is initialized and navigated to the home page successfully
+16:42:44.498 [main] INFO  resources.base - Navigated to Urban Ladder Bandra Store page
+16:42:45.192 [main] INFO  resources.base - Driver is closed successfully
+16:42:49.489 [main] INFO  resources.base - Driver is initialized and navigated to the home page successfully
+16:42:53.329 [main] INFO  resources.base - Successfully navigated to Laptop Tables page
+16:42:54.958 [main] INFO  resources.base - Navigation Bar is present
+16:42:55.469 [main] INFO  resources.base - Driver is closed successfully
+16:42:59.450 [main] INFO  resources.base - Driver is initialized and navigated to the home page successfully
+16:42:59.453 [main] ERROR resources.base - An error occured : Unable to get the expected text

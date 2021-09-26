@@ -1,0 +1,6 @@
+16:41:51.911 [main] INFO  resources.base - Driver is initialized and navigated to the home page successfully
+16:41:52.824 [main] INFO  resources.base - Moved to child window successfully
+16:41:52.824 [main] ERROR resources.base - Getting error : Unable to get the expected text
+16:41:54.862 [main] INFO  resources.base - Driver is closed successfully
+16:41:58.961 [main] INFO  resources.base - Driver is initialized and navigated to the home page successfully
+16:41:59.656 [main] INFO  resources.base - 465

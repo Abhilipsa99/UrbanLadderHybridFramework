@@ -1,0 +1,3 @@
+16:44:02.968 [main] INFO  resources.base - Driver is initialized and navigated to the home page successfully
+16:44:06.433 [main] INFO  resources.base - Navigated to track order page for filling the order details
+16:44:07.459 [main] INFO  resources.base - Driver is closed successfully

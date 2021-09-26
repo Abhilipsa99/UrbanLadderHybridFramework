@@ -1,0 +1,16 @@
+16:43:00.963 [main] INFO  resources.base - Driver is closed
+16:43:04.930 [main] INFO  resources.base - Driver is initialized and navigated to the home page successfully
+16:43:08.595 [main] INFO  resources.base - Landed on the page of products to be searched
+16:43:25.213 [main] INFO  resources.base - Successfully added the item to the cart for future use
+16:43:25.492 [main] INFO  resources.base - Driver is closed
+16:43:27.028 [main] INFO  resources.base - Driver is initialized
+16:43:28.979 [main] INFO  resources.base - Navigated to Home Page Successfully
+16:43:33.013 [main] INFO  resources.base - The search page for the item to be searched loaded successfully
+16:43:42.491 [main] INFO  resources.base - Successfully displayed the selected category page
+16:43:44.974 [main] INFO  resources.base - Nagivated to Home Page of Urban Ladder
+16:43:48.821 [main] INFO  resources.base - Successfully Navigated to Curtains page
+16:43:49.654 [main] INFO  resources.base - Nagivated to Home Page of Urban Ladder
+16:43:53.898 [main] INFO  resources.base - Successfully Navigated to Wardrobe page
+16:43:54.649 [main] INFO  resources.base - Nagivated to Home Page of Urban Ladder
+16:43:58.552 [main] INFO  resources.base - Successfully Navigated to Hanging Lamp page
+16:43:58.878 [main] INFO  resources.base - Driver is closed

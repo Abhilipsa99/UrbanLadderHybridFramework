@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="13" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-26T16:41:46 IST" name="Suite" finished-at="2021-09-26T16:44:07 IST" duration-ms="140737">
+    <groups>
+    </groups>
+    <test started-at="2021-09-26T16:41:46 IST" name="Test1" finished-at="2021-09-26T16:41:54 IST" duration-ms="8139">
+      <class name="UrbanLadder.jioMartCashback">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:UrbanLadder.jioMartCashback@6e4de19b]" started-at="2021-09-26T16:41:46 IST" name="initialize" finished-at="2021-09-26T16:41:51 IST" duration-ms="5181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="jioCashback()[pri:0, instance:UrbanLadder.jioMartCashback@6e4de19b]" started-at="2021-09-26T16:41:51 IST" name="jioCashback" finished-at="2021-09-26T16:41:53 IST" duration-ms="1999" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Terms and Conditions For Jio Mart Cash Back] but found [Terms And Conditions For Jio Mart Cash Back]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Terms and Conditions For Jio Mart Cash Back] but found [Terms And Conditions For Jio Mart Cash Back]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at UrbanLadder.jioMartCashback.jioCashback(jioMartCashback.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jioCashback -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:UrbanLadder.jioMartCashback@6e4de19b]" started-at="2021-09-26T16:41:54 IST" name="teardown" finished-at="2021-09-26T16:41:54 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UrbanLadder.jioMartCashback -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-09-26T16:41:54 IST" name="Test2" finished-at="2021-09-26T16:42:07 IST" duration-ms="12135">
+      <class name="UrbanLadder.LinksInHomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:UrbanLadder.LinksInHomePage@bcec031]" started-at="2021-09-26T16:41:54 IST" name="initialize" finished-at="2021-09-26T16:41:58 IST" duration-ms="4076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="CountLinks()[pri:0, instance:UrbanLadder.LinksInHomePage@bcec031]" started-at="2021-09-26T16:41:58 IST" name="CountLinks" finished-at="2021-09-26T16:41:59 IST" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CountLinks -->
+        <test-method signature="CustomerStories()[pri:0, instance:UrbanLadder.LinksInHomePage@bcec031]" started-at="2021-09-26T16:41:59 IST" name="CustomerStories" finished-at="2021-09-26T16:42:02 IST" duration-ms="2764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerStories -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:UrbanLadder.LinksInHomePage@bcec031]" started-at="2021-09-26T16:42:02 IST" name="teardown" finished-at="2021-09-26T16:42:07 IST" duration-ms="4593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UrbanLadder.LinksInHomePage -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-09-26T16:42:07 IST" name="Test3" finished-at="2021-09-26T16:42:25 IST" duration-ms="18179">
+      <class name="UrbanLadder.HomePageLogin">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:UrbanLadder.HomePageLogin@7c351808]" started-at="2021-09-26T16:42:07 IST" name="initialize" finished-at="2021-09-26T16:42:11 IST" duration-ms="4516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Login()[pri:0, instance:UrbanLadder.HomePageLogin@7c351808]" started-at="2021-09-26T16:42:11 IST" name="Login" finished-at="2021-09-26T16:42:24 IST" duration-ms="13352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:UrbanLadder.HomePageLogin@7c351808]" started-at="2021-09-26T16:42:24 IST" name="teardown" finished-at="2021-09-26T16:42:25 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UrbanLadder.HomePageLogin -->
+    </test> <!-- Test3 -->
+    <test started-at="2021-09-26T16:42:25 IST" name="Test4" finished-at="2021-09-26T16:42:32 IST" duration-ms="7610">
+      <class name="UrbanLadder.UrbanLadderHelpPage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:UrbanLadder.UrbanLadderHelpPage@d5ae57e]" started-at="2021-09-26T16:42:25 IST" name="initialize" finished-at="2021-09-26T16:42:29 IST" duration-ms="4135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Help()[pri:0, instance:UrbanLadder.UrbanLadderHelpPage@d5ae57e]" started-at="2021-09-26T16:42:29 IST" name="Help" finished-at="2021-09-26T16:42:32 IST" duration-ms="3263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Help -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:UrbanLadder.UrbanLadderHelpPage@d5ae57e]" started-at="2021-09-26T16:42:32 IST" name="teardown" finished-at="2021-09-26T16:42:32 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UrbanLadder.UrbanLadderHelpPage -->
+    </test> <!-- Test4 -->
+    <test started-at="2021-09-26T16:42:32 IST" name="Test5" finished-at="2021-09-26T16:42:45 IST" duration-ms="12366">
+      <class name="UrbanLadder.HomePageStores">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:UrbanLadder.HomePageStores@6e16b8b5]" started-at="2021-09-26T16:42:32 IST" name="initialize" finished-at="2021-09-26T16:42:37 IST" duration-ms="4376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateStores()[pri:0, instance:UrbanLadder.HomePageStores@6e16b8b5]" started-at="2021-09-26T16:42:37 IST" name="validateStores" finished-at="2021-09-26T16:42:44 IST" duration-ms="7295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStores -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:UrbanLadder.HomePageStores@6e16b8b5]" started-at="2021-09-26T16:42:44 IST" name="teardown" finished-at="2021-09-26T16:42:45 IST" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UrbanLadder.HomePageStores -->
+    </test> <!-- Test5 -->
+    <test started-at="2021-09-26T16:42:45 IST" name="Test6" finished-at="2021-09-26T16:42:55 IST" duration-ms="10270">
+      <class name="UrbanLadder.NavBarItems">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:UrbanLadder.NavBarItems@2c1b9e4b]" started-at="2021-09-26T16:42:45 IST" name="initialize" finished-at="2021-09-26T16:42:49 IST" duration-ms="4290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="CheckNavItems()[pri:0, instance:UrbanLadder.NavBarItems@2c1b9e4b]" started-at="2021-09-26T16:42:49 IST" name="CheckNavItems" finished-at="2021-09-26T16:42:53 IST" duration-ms="3839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckNavItems -->
+        <test-method signature="validateAppNavBar()[pri:0, instance:UrbanLadder.NavBarItems@2c1b9e4b]" started-at="2021-09-26T16:42:53 IST" name="validateAppNavBar" finished-at="2021-09-26T16:42:54 IST" duration-ms="1626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppNavBar -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:UrbanLadder.NavBarItems@2c1b9e4b]" started-at="2021-09-26T16:42:54 IST" name="teardown" finished-at="2021-09-26T16:42:55 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UrbanLadder.NavBarItems -->
+    </test> <!-- Test6 -->
+    <test started-at="2021-09-26T16:42:55 IST" name="Test7" finished-at="2021-09-26T16:43:00 IST" duration-ms="5492">
+      <class name="UrbanLadder.validateUrbanLadderText">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:UrbanLadder.validateUrbanLadderText@4eed46ee]" started-at="2021-09-26T16:42:55 IST" name="initialize" finished-at="2021-09-26T16:42:59 IST" duration-ms="3976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateText()[pri:0, instance:UrbanLadder.validateUrbanLadderText@4eed46ee]" started-at="2021-09-26T16:42:59 IST" name="validateText" finished-at="2021-09-26T16:42:59 IST" duration-ms="433" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Explore Our Furniture Range1] but found [Explore Our Furniture Range]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Explore Our Furniture Range1] but found [Explore Our Furniture Range]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at UrbanLadder.validateUrbanLadderText.validateText(validateUrbanLadderText.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateText -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:UrbanLadder.validateUrbanLadderText@4eed46ee]" started-at="2021-09-26T16:43:00 IST" name="teardown" finished-at="2021-09-26T16:43:00 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UrbanLadder.validateUrbanLadderText -->
+    </test> <!-- Test7 -->
+    <test started-at="2021-09-26T16:43:00 IST" name="Test8" finished-at="2021-09-26T16:43:25 IST" duration-ms="24519">
+      <class name="UrbanLadder.ViewItemDetails">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:UrbanLadder.ViewItemDetails@625e134e]" started-at="2021-09-26T16:43:00 IST" name="initialize" finished-at="2021-09-26T16:43:04 IST" duration-ms="3955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="viewProductDetails()[pri:0, instance:UrbanLadder.ViewItemDetails@625e134e]" started-at="2021-09-26T16:43:04 IST" name="viewProductDetails" finished-at="2021-09-26T16:43:25 IST" duration-ms="20282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewProductDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:UrbanLadder.ViewItemDetails@625e134e]" started-at="2021-09-26T16:43:25 IST" name="teardown" finished-at="2021-09-26T16:43:25 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UrbanLadder.ViewItemDetails -->
+    </test> <!-- Test8 -->
+    <test started-at="2021-09-26T16:43:25 IST" name="Test9" finished-at="2021-09-26T16:43:58 IST" duration-ms="33378">
+      <class name="UrbanLadder.Search">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:UrbanLadder.Search@41a90fa8]" started-at="2021-09-26T16:43:25 IST" name="initialize" finished-at="2021-09-26T16:43:27 IST" duration-ms="1527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Search()[pri:0, instance:UrbanLadder.Search@41a90fa8]" started-at="2021-09-26T16:43:27 IST" name="Search" finished-at="2021-09-26T16:43:42 IST" duration-ms="15464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="getSearchItem(java.lang.String)[pri:0, instance:UrbanLadder.Search@41a90fa8]" started-at="2021-09-26T16:43:44 IST" name="getSearchItem" data-provider="getData" finished-at="2021-09-26T16:43:48 IST" duration-ms="4478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Curtains]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearchItem -->
+        <test-method signature="getSearchItem(java.lang.String)[pri:0, instance:UrbanLadder.Search@41a90fa8]" started-at="2021-09-26T16:43:48 IST" name="getSearchItem" data-provider="getData" finished-at="2021-09-26T16:43:53 IST" duration-ms="5075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wardrobe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearchItem -->
+        <test-method signature="getSearchItem(java.lang.String)[pri:0, instance:UrbanLadder.Search@41a90fa8]" started-at="2021-09-26T16:43:53 IST" name="getSearchItem" data-provider="getData" finished-at="2021-09-26T16:43:58 IST" duration-ms="4652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hanging Lamp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearchItem -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:UrbanLadder.Search@41a90fa8]" started-at="2021-09-26T16:43:58 IST" name="teardown" finished-at="2021-09-26T16:43:58 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UrbanLadder.Search -->
+    </test> <!-- Test9 -->
+    <test started-at="2021-09-26T16:43:58 IST" name="Test10" finished-at="2021-09-26T16:44:07 IST" duration-ms="8577">
+      <class name="UrbanLadder.TrackOrder">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:UrbanLadder.TrackOrder@4b85880b]" started-at="2021-09-26T16:43:58 IST" name="initialize" finished-at="2021-09-26T16:44:02 IST" duration-ms="4086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="trackOrder()[pri:0, instance:UrbanLadder.TrackOrder@4b85880b]" started-at="2021-09-26T16:44:02 IST" name="trackOrder" finished-at="2021-09-26T16:44:07 IST" duration-ms="4181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trackOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:UrbanLadder.TrackOrder@4b85880b]" started-at="2021-09-26T16:44:07 IST" name="teardown" finished-at="2021-09-26T16:44:07 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- UrbanLadder.TrackOrder -->
+    </test> <!-- Test10 -->
+  </suite> <!-- Suite -->
+</testng-results>
